@@ -1,49 +1,30 @@
-<html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Coda|Codystar|Jacques+Francois+Shadow|Unica+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="whack.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script defer src="app.js"></script>
-  </head>
-  <body>
-    <main id="app">
-      <h1>
-        Calculator
-      </h1>
-      <div class="calculator">
-        <section class="display">
-          <div class="held-label">Running Total</div>
-          <div class="held-value"></div>
-          <div class="next-operation"></div>
-          <div class="next-value"></div>
-        </section>
-        <section class="controls">
-          <section class="memory">
-            <button class="clear-all">CLEAR</button>
-            <button class="clear-entry">CLEAR ENTRY</button>
-          </section>
-          <section class="operations">
-            <button class="add">&plus;</button class="">
-            <button class="subtract">&minus;</button>
-            <button class="multiply">&times;</button>
-            <button class="divide">/</button>
-            <button class="equals">&equals;</button>
-          </section>
-          <section class="digits">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="decimal">.</button>
-            <button>0</button>
-          </section>
-        </section>
-      </div>
-    </main>
-  </body>
+</head>
+<body>
+    <h1>Bash-A-Billionaire!</h1>
+    <h2>You Can't Block Him, But You Can Bash Him!</h2>
+    <button onClick="bloodSport()">Commence!</button>
+    <div class="gameBoard">
+        <div class="Block1"></div>
+        <div class="Block2"></div>
+        <div class="Block3"></div>
+        <div class="scoreBoard">   
+            <div class="score">= 0</div>
+        </div>
+    </div>
+    <div class="gameBoard2">   
+        <div class="Block4"></div>
+        <div class="Block5"></div>
+        <div class="Block6"></div>
+    </div> 
+        <script src="whack_a_mole.js"></script>
+</body>
 </html>

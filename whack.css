@@ -1,0 +1,85 @@
+html    {
+    font-size: 35 px;
+    background: rgb(99, 146, 28);
+}
+.gameBoard  {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+}
+.gameBoard2  {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.filled {
+    background-image: url("DataFromStarTrek.jpeg");
+}
+
+.bashed   {
+    background-image: url("TheZuck.jpg");
+}
+
+.Block1 {
+    border: 5px groove black;
+    flex: 1 0 33%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(51, 40, 5);
+    
+}
+.Block2 {
+    border: 5px groove black;
+    flex: 1 0 33%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(51, 40, 5);
+    
+}
+.Block3 {
+    border: 5px groove black;
+    flex: 1 0 33%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(51, 40, 5);
+    
+}
+.Block4 {
+    border: 5px groove black;
+    flex: 1 0 33%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(51, 40, 5);
+    
+}
+.Block5 {
+    border: 5px groove black;
+    flex: 1 0 33%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(51, 40, 5);
+    
+}
+.Block6 {
+    border: 5px groove black;
+    flex: 1 0 33%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(51, 40, 5);
+    
+}
+.scoreBoard {
+    display: flex;
+    border: 1px solid black;
+    height: 600px;
+    width: 800px;
+    font-size: 64px;
+    font-weight: bold;
+    font-style: underline;
+    font-family: 'Trebuchet MS';
+    color: indigo;
+}
+
